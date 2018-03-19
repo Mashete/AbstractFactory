@@ -27,12 +27,12 @@ namespace AbstractFactory
             bool condicion = this.fechaInicioTemporada <= fechaLlegada && fechaLlegada.AddDays(noches) <= this.fechaFinTemporada;
             if (condicion)
             {
-                Console.Write("Hotel Reservado");
+                Console.WriteLine("Hotel Reservado");
                 this.cantidadNoches = noches;
                 this.fechaLlegada = fechaLlegada;
             }
             else
-                Console.Write("Fuera de temporada");
+                Console.WriteLine("Fuera de temporada");
 
             return condicion;
         }

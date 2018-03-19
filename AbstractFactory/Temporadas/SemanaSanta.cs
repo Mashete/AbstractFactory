@@ -10,12 +10,12 @@ namespace AbstractFactory
     {
         public Hotel CrearHotel()
         {
-            return new HotelVeraniego(new DateTime(2018, 3, 25), new DateTime(2018, 3, 31));
+            return new HotelCostero(new DateTime(2018, 3, 25), new DateTime(2018, 3, 31));
         }
 
         public Transporte CrearTransporte()
         {
-            throw new NotImplementedException("No medios de transporte disponibles");
+            return new Auto();
         }
     }
 }

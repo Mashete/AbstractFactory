@@ -42,11 +42,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Alojamiento\HotelCostero.cs" />
+    <Compile Include="Temporadas\Invierno.cs" />
+    <Compile Include="Temporadas\ITemporada.cs" />
+    <Compile Include="Temporadas\SemanaSanta.cs" />
+    <Compile Include="Transporte\Auto.cs" />
+    <Compile Include="Alojamiento\HotelInvernal.cs" />
+    <Compile Include="Alojamiento\HotelVeraniego.cs" />
+    <Compile Include="Alojamiento\Hotel.cs" />
+    <Compile Include="Transporte\MotoNieve.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Transporte\Transporte.cs" />
+    <Compile Include="Temporadas\Verano.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
